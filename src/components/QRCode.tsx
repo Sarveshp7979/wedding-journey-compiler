@@ -25,18 +25,6 @@ const QRCode = ({ url, size = 180, title, useCustomImage = false, customImagePat
   return (
     <div className="flex flex-col items-center animate-fade-in-up">
       {title && <h3 className="text-xl font-medium mb-4 text-center">{title}</h3>}
-      <div className="p-3 bg-white rounded-xl shadow-md">
-        {qrCodeSrc && (
-          <img 
-            src={qrCodeSrc} 
-            alt="QR Code" 
-            width={size} 
-            height={size} 
-            className="rounded-md"
-            loading="lazy"
-          />
-        )}
-      </div>
     </div>
   );
 };

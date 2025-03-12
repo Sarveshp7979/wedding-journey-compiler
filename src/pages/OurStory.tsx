@@ -1,4 +1,3 @@
-
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 
@@ -142,7 +141,7 @@ const OurStory = () => {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.6, delay: 0.6 }}
-            className="card-glass p-8 flex-1"
+            className="card-glass p-8 w-full"
           >
             <div className="flex justify-center mb-6">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="none" className="text-gold">
@@ -156,19 +155,6 @@ const OurStory = () => {
               but by choice, by understanding, and by standing together in every triumph
               and every fall.
             </p>
-          </motion.div>
-          
-          <motion.div 
-            initial={{ opacity: 0, x: 20 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.6, delay: 0.9 }}
-            className="flex-1"
-          >
-            <img 
-              src="/lovable-uploads/965d891d-5c55-4e28-9d10-014e29bb0f48.png" 
-              alt="Subash and Sowjanya" 
-              className="w-full h-full object-cover rounded-xl shadow-lg"
-            />
           </motion.div>
         </div>
         
