@@ -70,7 +70,7 @@ const Index = () => {
                 transition={{ delay: 1.2, duration: 0.6 }}
                 className="text-lg md:text-xl mb-8"
               >
-                We invite you to celebrate our wedding
+                We invite you to celebrate on our wedding
               </motion.p>
               
               <motion.h2
@@ -79,7 +79,7 @@ const Index = () => {
                 transition={{ delay: 1.5, duration: 0.6 }}
                 className="text-2xl md:text-4xl font-serif text-gold mb-4"
               >
-                April 10-11, 2025
+                April 10-04-2025 & April 11-04-2025
               </motion.h2>
               
               <motion.p
