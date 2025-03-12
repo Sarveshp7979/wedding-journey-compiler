@@ -70,7 +70,7 @@ const Index = () => {
                 transition={{ delay: 1.2, duration: 0.6 }}
                 className="text-lg md:text-xl mb-8"
               >
-                We invite you to celebrate on our wedding
+                We invite you to celebrate our wedding on
               </motion.p>
               
               <motion.h2
