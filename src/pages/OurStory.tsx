@@ -1,3 +1,4 @@
+
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
 
@@ -135,6 +136,21 @@ const OurStory = () => {
         >
           "A Love Beyond Time: Written in the Stars, Built by Us"
         </motion.p>
+        
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="mb-16 flex justify-center"
+        >
+          <div className="card-glass p-4 max-w-md overflow-hidden rounded-xl shadow-lg">
+            <img 
+              src="/lovable-uploads/ef231bc3-1b2b-44f2-be49-3eed3f6d401b.png" 
+              alt="Subash and Sowjanya" 
+              className="w-full h-auto rounded-lg"
+            />
+          </div>
+        </motion.div>
         
         <div className="flex flex-col md:flex-row gap-8 mb-16">
           <motion.div 
