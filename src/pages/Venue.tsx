@@ -98,9 +98,6 @@ const Venue = () => {
               alt="QR Code for venue directions" 
               className="w-full h-auto"
             />
-            <p className="text-center mt-4 text-sm text-foreground/80">
-              https://g.co/kgs/LzAsXS8
-            </p>
           </div>
         </motion.div>
       </div>
